@@ -20,8 +20,6 @@ import com.zyl.weatherforkotlin.weatherapi.Weather
  * Person in charge :  zouyulong
  * Leader : lixiao
  */
-
-
 class WeatherAdapter : Adapter<WeatherAdapter.MyHolder> {
     var mData: List<Weather>? = null
     var mContext: Context? = null
